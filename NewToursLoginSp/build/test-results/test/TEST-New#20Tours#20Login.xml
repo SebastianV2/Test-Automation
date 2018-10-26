@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="New Tours Login" tests="2" skipped="0" failures="2" errors="0" timestamp="2018-10-25T13:17:27" hostname="RC-PC" time="16.447">
+  <properties/>
+  <testcase name="Login into New Tours" classname="New Tours Login" time="9.897">
+    <failure message="java.lang.AssertionError: No internet conection - &#10;Expected: a collection containing &quot;User Name:&quot;&#10;     but: " type="java.lang.AssertionError">java.lang.AssertionError: No internet conection - 
+Expected: a collection containing &quot;User Name:&quot;
+     but: 
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser.performAs(OpenTheBrowser.java:26)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e.CGLIB$performAs$0(&lt;generated&gt;)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e$$FastClassByCGLIB$$626b28ff.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:84)
+	at com.newtours.certification.newtoursloginsp.stepdefinitions.NewToursLoginSpStepDefinitions.thatSebasWantsToLoginIntoNewTours(NewToursLoginSpStepDefinitions.java:40)
+	at ✽.that sebas wants to login into new tours(src/test/resources/features/NewToursLoginScreenplay.feature:8)
+</failure>
+  </testcase>
+  <testcase name="Login into New Tours" classname="New Tours Login" time="6.533">
+    <failure message="java.lang.AssertionError: No internet conection - &#10;Expected: a collection containing &quot;User Name:&quot;&#10;     but: " type="java.lang.AssertionError">java.lang.AssertionError: No internet conection - 
+Expected: a collection containing &quot;User Name:&quot;
+     but: 
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser.performAs(OpenTheBrowser.java:26)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e.CGLIB$performAs$0(&lt;generated&gt;)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e$$FastClassByCGLIB$$626b28ff.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:84)
+	at com.newtours.certification.newtoursloginsp.stepdefinitions.NewToursLoginSpStepDefinitions.thatSebasWantsToLoginIntoNewTours(NewToursLoginSpStepDefinitions.java:40)
+	at ✽.that sebas wants to login into new tours(src/test/resources/features/NewToursLoginScreenplay.feature:17)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[oct 25, 2018 8:17:27 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 48996
+Only local connections are allowed.
+oct 25, 2018 8:17:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Login into New Tours
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then new tours home should be a collection containing 'User Name:'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - No internet conection - Expected: a collection containing "User Name:" but:
+oct 25, 2018 8:17:37 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+oct 25, 2018 8:17:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Login into New Tours
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then new tours home should be a collection containing 'User Name:'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - No internet conection - Expected: a collection containing "User Name:" but:
+]]></system-err>
+</testsuite>

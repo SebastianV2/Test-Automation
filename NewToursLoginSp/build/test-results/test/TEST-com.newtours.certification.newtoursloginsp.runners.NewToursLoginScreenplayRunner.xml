@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.newtours.certification.newtoursloginsp.runners.NewToursLoginScreenplayRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="RC-PC" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/NewToursLoginScreenplay.feature:7 ?[0m# Login into New Tours
+?[31msrc/test/resources/features/NewToursLoginScreenplay.feature:16 ?[0m# Login into New Tours
+?[31msrc/test/resources/features/NewToursRegisterScreenplay.feature:8 ?[0m# Register on NewTours
+
+3 Scenarios (?[31m3 failed?[0m)
+12 Steps (?[31m3 failed?[0m, ?[36m9 skipped?[0m)
+0m23,879s
+
+java.lang.AssertionError: No internet conection - 
+Expected: a collection containing "User Name:"
+     but: 
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser.performAs(OpenTheBrowser.java:26)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e.CGLIB$performAs$0(<generated>)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e$$FastClassByCGLIB$$626b28ff.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e.performAs(<generated>)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:84)
+	at com.newtours.certification.newtoursloginsp.stepdefinitions.NewToursLoginSpStepDefinitions.thatSebasWantsToLoginIntoNewTours(NewToursLoginSpStepDefinitions.java:40)
+	at ?.that sebas wants to login into new tours(src/test/resources/features/NewToursLoginScreenplay.feature:8)
+
+java.lang.AssertionError: No internet conection - 
+Expected: a collection containing "User Name:"
+     but: 
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser.performAs(OpenTheBrowser.java:26)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e.CGLIB$performAs$0(<generated>)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e$$FastClassByCGLIB$$626b28ff.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenTheBrowser$$EnhancerByCGLIB$$d0f4f02e.performAs(<generated>)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:84)
+	at com.newtours.certification.newtoursloginsp.stepdefinitions.NewToursLoginSpStepDefinitions.thatSebasWantsToLoginIntoNewTours(NewToursLoginSpStepDefinitions.java:40)
+	at ?.that sebas wants to login into new tours(src/test/resources/features/NewToursLoginScreenplay.feature:17)
+
+java.lang.AssertionError: No internet conection - 
+Expected: a collection containing "User Name:"
+     but: 
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenHomePage.performAs(OpenHomePage.java:28)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenHomePage$$EnhancerByCGLIB$$9712e4b.CGLIB$performAs$0(<generated>)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenHomePage$$EnhancerByCGLIB$$9712e4b$$FastClassByCGLIB$$a00cfca3.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.newtours.certification.newtoursloginsp.tasks.OpenHomePage$$EnhancerByCGLIB$$9712e4b.performAs(<generated>)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:84)
+	at com.newtours.certification.newtoursloginsp.stepdefinitions.NewToursRegisterSpStepDefinitions.thatSebasWantsToRegisterIntoNewToursHeGetsIntoRegisterPage(NewToursRegisterSpStepDefinitions.java:41)
+	at ?.that sebas wants to register into new tours he gets into register page(src/test/resources/features/NewToursRegisterScreenplay.feature:9)
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[36m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: New Tours Login
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Create a NewTours account
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Login into New Tours
+-------------------------------------------------------------------(new-tours-login;login-into-new-tours)
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Login into New Tours
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then new tours home should be a collection containing 'User Name:'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - No internet conection - Expected: a collection containing "User Name:" but:
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Login into New Tours
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then new tours home should be a collection containing 'User Name:'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - No internet conection - Expected: a collection containing "User Name:" but:
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Register on NewTours
+-------------------------------------------------------------------(create-a-newtours-account;register-on-newtours)
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Register on NewTours
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then new tours home should be a collection containing 'User Name:'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - No internet conection - Expected: a collection containing "User Name:" but:
+]]></system-err>
+</testsuite>
